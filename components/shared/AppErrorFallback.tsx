@@ -17,10 +17,10 @@ const sliceErrorStack = (stackTrace = "", numLines = 10) => {
 };
 
 export const AppErrorFallback = ({
-  error,
-  errorInfo,
-  resetErrorBoundary,
-}: AEFProps) => {
+                                   error,
+                                   errorInfo,
+                                   resetErrorBoundary
+                                 }: AEFProps) => {
   return (
     <Section className="flex flex-col items-center justify-center w-full min-h-screen py-4 md:py-20 ">
       <div className="w-full p-8 bg-background-800">

@@ -7,11 +7,11 @@ interface ButtonProps extends BaseButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({
-  className,
-  children,
-  secondary,
-  ...props
-}) => {
+                                         className,
+                                         children,
+                                         secondary,
+                                         ...props
+                                       }) => {
   return (
     <BaseButton
       type="button"

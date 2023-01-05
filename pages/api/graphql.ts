@@ -6,15 +6,15 @@ import { schema } from "@/graphql/schema";
 
 export const config: PageConfig = {
   api: {
-    bodyParser: false,
-  },
+    bodyParser: false
+  }
 };
 
 const cors = Cors();
 
 const server = new ApolloServer({
   //   context,
-  schema,
+  schema
 });
 
 const startServer = server.start();

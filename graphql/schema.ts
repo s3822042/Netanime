@@ -5,18 +5,18 @@ export const schema = makeSchema({
   types: [],
   outputs: {
     schema: path.join(process.cwd(), "graphql/schema.graphql"),
-    typegen: path.join(process.cwd(), "graphql/generated/nexus.d.ts"),
+    typegen: path.join(process.cwd(), "graphql/generated/nexus.d.ts")
   },
   contextType: {
     module: path.join(process.cwd(), "graphql/context.ts"),
-    export: "Context",
+    export: "Context"
   },
   sourceTypes: {
     modules: [
       {
         module: "",
-        alias: "db",
-      },
-    ],
-  },
+        alias: "db"
+      }
+    ]
+  }
 });

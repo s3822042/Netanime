@@ -6,9 +6,11 @@
 
 1. Next.js
 2. GraphQL predefined with Nexus code first approach
-3. [`Tailwind`](https://tailwindcss.com/) with a base configuration and [`Tailwind Prettier Plugin`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+3. [`Tailwind`](https://tailwindcss.com/) with a base configuration
+   and [`Tailwind Prettier Plugin`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 4. Next.js built-in ESLint integration
-5. On-save Code generation with VSCode plugin [`Save and Run`](https://marketplace.visualstudio.com/items?itemName=wk-j.save-and-run)
+5. On-save Code generation with VSCode
+   plugin [`Save and Run`](https://marketplace.visualstudio.com/items?itemName=wk-j.save-and-run)
 
 ## Installation
 

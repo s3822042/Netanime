@@ -14,17 +14,18 @@ import BaseLayout from "@/components/layout/BaseLayout";
 type Page<P = {}> = NextPage<P> & {
   getLayout?: (page: React.ReactElement) => React.ReactElement;
 };
+
 interface WorkaroundAppProps extends AppProps {
   err: any;
   Component: Page;
 }
 
 export default function App({
-  Component,
-  pageProps,
-  router,
-  err,
-}: WorkaroundAppProps) {
+                              Component,
+                              pageProps,
+                              router,
+                              err
+                            }: WorkaroundAppProps) {
   const [errorInfo, setErrorInfo] = useState<any>();
 
   const getLayout =
